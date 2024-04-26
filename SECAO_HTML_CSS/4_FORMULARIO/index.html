@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+    <link rel="stylesheet" href="../4_FORMULARIO/css/style.css">
+</head>
+<body>
+    <h2>Formulários HTML</h2>
+    <!-- 1 - Primeiro Formulário -->
+    <!-- 2 - Atributos do formulário -->
+    <form action="register.php" method="get">
+        <div>
+            <label>Nome:</label>
+            <input type="text">
+        </div>
+
+        <!-- 3 - Atributo 'name' -->
+        <!-- 4 - Atributo da label -->
+        <div>
+            <label for="age">Idade:</label>
+            <input type="text" name="age">
+        </div>
+
+        <!-- 6 - Elemento 'select' -->
+        <div>
+            <label for="job">Selecione a sua profissão:</label>
+            <select name="job">
+                <option value="programador">Programador</option>
+                <option value="tester">Tester/QA</option>
+                <option value="devops">DevOps</option>
+                <option value="full">Full Stack</option>
+            </select>
+        </div>
+
+        <!-- 7 - Atributo 'selected' -->
+        <div>
+            <label for="contract">Você leu os termos do contrato</label>
+            <select name="contract">
+                <option value="sim">Sim</option>
+                <option value="nao" selected>Não</option>
+            </select>
+        </div>
+
+        <!-- 8 - Múltiplas ações -->
+        <div>
+            <label for="car">Upgrade para seu carro</label>
+            <select name="car" multiple>
+                <option value="aerofolio">Aerofólio</option>
+                <option value="farol">Farol de Led</option>
+                <option value="croma">Croma</option>
+                <option value="body">Body Kit</option>
+                <option value="neon">Neon inferior</option>
+            </select>
+        </div>
+
+        <!-- 9 - Elemento 'textarea' -->
+        <div>
+            <label for="bio">Biografia:</label>
+            <textarea name="bio"></textarea>
+        </div>
+
+        <!-- 10 - Fildset e legend -->
+        <div>
+            <fieldset>
+                <legend>Preencha com seus dados:</legend>
+                <label for="firstname">Nome:</label>
+                <input type="text" name="firstname">
+                <label for="lastname">Sobrenome:</label>
+                <input type="text" name="lastname">
+            </fieldset>
+        </div>
+
+        <!-- 11 - Datalist -->
+        <div>
+            <label for="flavor">Escolha o sabor:</label>
+            <input type="text" list="flavors" name="flavor">
+
+            <datalist id="flavors">
+                <option value="Cereja"></option>
+                <option value="Morango"></option>
+                <option value="Chocolate"></option>
+                <option value="Amendoin"></option>
+            </datalist>
+        </div>
+
+        <!-- 12 - Input para senha -->
+        <div>
+            <label for="password">Digite sua senha:</label>
+            <input type="password" name="password">
+        </div>
+
+        <!-- 14 - Input 'radio' -->
+        <div>
+            <label for="car_model">Escolha o modelo do seu carro:</label>
+            <div class="radio">
+                <input type="radio" value="motor" name="car_model">
+                <label for="jetta">Jetta</label>
+            </div>
+            <div class="radio">
+                <input type="radio" value="motor" name="car_model">
+                <label for="civic">Civic</label>
+            </div>
+            <div class="radio">
+                <input type="radio" value="motor" name="car_model">
+                <label for="corolla">Corolla</label>
+            </div>
+        </div>
+
+        <!-- 15 - Input 'checkbox' -->
+        <div>
+            <label for="optionals">Opcionais</label>
+            <div class="radio">
+                <input type="checkbox" name="optionals[]" value="aerofolio">
+                <label for="aerofolio">Aerofólio</label>
+            </div>
+            <div class="radio">
+                <input type="checkbox" name="optionals[]" value="body-kit">
+                <label for="body-kit">Body Kit</label>
+            </div>
+            <div class="radio">
+                <input type="checkbox" name="optionals[]" value="rodao">
+                <label for="rodao">Rodão</label>
+            </div>
+        </div>
+
+        <!-- 16 - Input de data -->
+        <div>
+            <label for="date">Data de nascimento:</label>
+            <input type="date" name="date">
+        </div>
+
+        <!-- 17 - Input para arquivos -->
+        <div>
+            <label for="file_input">Anexar um arquivo</label>
+            <input type="file" name="file_input">
+        </div>
+
+        <!-- 18 - Input para números -->
+        <div>
+            <label for="cpf">Digite seu CPF</label>
+            <input type="number" name="cpf">
+        </div>
+
+        <!-- 19 - Input para e-mails -->
+        <div>
+            <label for="e-mails">Digite seu e-mail:</label>
+            <input type="email" name="e-mails">
+        </div>
+
+        <!-- 20 - Atributo 'value' -->
+        <div>
+            <label for="job-2">Insira sua profissão:</label>
+            <input type="text" value="O meu valor é este">
+        </div>
+
+        <!-- 21 - Atributo 'disabled' -->
+        <div>
+            <p>Tente mudar o valor</p>
+            <input type="text" value="Não precisa preencher" disabled>
+        </div>
+
+        <!-- 22 - Atributo 'placeholder' -->
+        <div>
+            <label for="curso">Qual seu curso superior:</label>
+            <input type="text" name="curso" placeholder="Qual curso você está fazendo?">
+        </div>
+
+        <!-- 23 - Atributo required -->
+        <div>
+            <label for="cep">Insira seu CEP:</label>
+            <input type="text" name="cep" required>
+        </div>
+        
+        <!-- 13 - Reiniciando o form -->
+        <input type="reset" value="Limpar">
+
+        <!-- 5 - Envio de form -->
+        <input type="submit" value="Enviar">
+
+    </form>
+</body>
+</html>

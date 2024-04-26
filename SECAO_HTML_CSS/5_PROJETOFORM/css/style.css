@@ -1,0 +1,152 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+/* reset */
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+html{
+    background-color: #001F3F
+}
+
+h1, h2, h3, h4, h5{
+    color: #333;
+}
+
+p, label{
+    color: #001F3F;
+}
+
+input{
+    border: none;
+    border-bottom: 1px solid #001F3F;
+    padding: 10px 0;
+    background-color: #8dbae7;
+    margin-bottom: 10px;
+}
+
+input[type="text"],
+input[type="number"],
+input[type="date"],
+input[type="file"]{
+    width: 500px;
+    display: block;
+}
+
+.header{
+    height: 160px;
+    padding: 20px;
+    background-color: #107be6;/*#6e0ad6;*/
+    text-align: center;
+    font-size: 40px;
+}
+
+.header h3{
+    color: white;
+    margin-top: 0;
+}
+
+.form-container{
+    background-color: #8dbae7;
+    width: 60%;
+    margin:  0 auto;
+    position: relative;
+    top: -62px;
+}
+
+.form-header{
+    text-align: center;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-top: 2px solid #001F3F;
+    border-bottom: 2px solid #001F3F;
+    margin-bottom: 15px;
+    font-size: 20px;
+}
+.form-body{
+    padding: 30px;
+}
+.form-header p{
+    color: #001F3F;
+}
+
+.required-field{
+    color: red;
+}
+
+.form-tittle{
+    color: #001F3F;
+    margin-bottom: 15px;
+}
+.form-subtittle{
+    color: #107be6;
+    margin-bottom: 15px;
+}
+
+/* Formulário de Cadastro */
+.box-input{
+    margin-bottom: 35px;
+}
+.box-input p{
+    margin-bottom: 15px;
+}
+
+/* Descrição veículo */
+textarea{
+    display: block;
+    width: 500px;
+    border: none;
+    border-bottom: 1px solid #001F3F;
+    background-color: #8dbae7;
+}
+
+form{
+    padding-top: 10px;
+}
+
+/* Lista câmbio */
+.radio{
+    margin-bottom: 10px;
+}
+.radio label{
+    border-bottom: 1px dashed #001F3F;
+}
+
+/* Botão cadastrar */
+.btn-submit{
+    background-color: #001F3F;
+    color: white;
+    border: 2px solid transparent;
+    width: 150px;
+    height: 50px;
+    cursor: pointer;
+    transition: 0.5s;
+}
+.btn-submit:hover{
+    background-color: white;
+    border: #001F3F;
+    color:#001F3F
+} 
+
+/* Lista dos opcionais */
+.optional-box{
+    display: inline-block;
+    margin: 0 30px 30px 0;
+}
+.optional-list li{
+    list-style: none;
+    margin-bottom: 5px;
+}
+.optional-list label{
+    border-bottom: 1px dashed #001F3F;
+}
+
+.radio,
+.optional-list {
+    margin-top: 10px;
+}
+
+

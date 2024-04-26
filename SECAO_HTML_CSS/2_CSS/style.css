@@ -1,0 +1,422 @@
+/* 4 - External */
+body{
+    padding-bottom: 500px;
+}
+/* h3{
+    border-bottom: 2px solid red;
+    color: blueviolet;
+    font-size: 40px;
+} */
+/* Classes
+.paragraph{
+    background-color: red;
+    color: #000;
+    padding: 5px;
+} */
+
+/* IDs
+#exclusive-tittle{
+    background-color: blue;
+    color: blueviolet;
+    padding: 10px;
+} */
+
+/* Múltiplas regras, ordem do CSS
+#umtitulo{
+    color: red;
+    border-bottom: 2px solid red ;
+}
+.umtitulo{
+    color: aqua;
+    border-bottom: 2px solid aqua;
+}
+h2{
+    color: green;
+    border-bottom: 2px solid green;
+} */
+
+/* RGB e RGBA
+.rgb{
+    color: rgb(255, 0, 0);
+}
+.rgba{
+    color: rgba(255, 0, 0, 0.5);
+} */
+
+/* HSL
+.hsl{
+    color: hsl(100, 20%, 50%);
+} */
+
+/* BACKGROUND OPACITY
+#opacity{
+    background-color: rgba(255, 0, 0, 0.5);
+    background-color: rgb(255, 0, 0);
+    color: black;
+    opacity: 0.9;
+} */
+
+/* BACKGROUND IMAGE */
+/* .backimage{
+    font-size: 50px;
+    color: white;
+    height: 300px;
+    width: 300px;
+    background-image: url("../css/img/alcantara-maranhao-dicas.jpg");
+    background-position: center; 
+    background-size: cover;
+} */
+
+/* HEIGHT E WIDTH
+.height-width{
+    height: 200px;
+    width: 100px;
+    background-color: aqua;
+}
+.height-width-2{
+    height: 100px;
+    background-color: aquamarine;
+} */
+
+/* PADDING
+.without-padding{
+    background-color: #111;
+    color: white;
+}
+.padding{
+    background-color: red;
+    color: white;
+    padding: 50px;
+} */
+
+/* PADDING INDIVIDUAL
+.padding-individual{
+    background-color: red;
+    color: white;
+    padding-top: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-bottom: 10px;
+} */
+
+/* SHORTHAND PADDING
+.shorthand-01{
+    background-color: red;
+    color: white;
+    padding: 5px 10px 5px 10px;
+}
+.shorthand-02{
+    background-color: red;
+    color: white;
+    padding: 5px 10px;
+} */
+
+/* PADDING E WIDTH
+.without-border-box{
+    background-color: red;
+    color: white;
+    width: 400px;
+    padding: 50px;
+}
+.border-box{
+    background-color: red;
+    color: white;
+    width: 400px;
+    padding: 50px;
+    box-sizing: border-box;
+} */
+
+/* BORDER
+.border-1{
+    border: 5px solid red;
+    padding: 10px;
+}
+.border-2{
+    border: 2px dotted orangered;
+    padding: 5px;
+} */
+
+/* BORDA INDIVIDUAL
+.left{
+    border-left: 2px solid red;
+}
+.bottom{
+    border-bottom: 2px solid red;
+}
+.right{
+    border-right: 2px solid red;
+}
+.top{
+    border-top: 2px solid red;
+} */
+
+/* BORDA ARREDONDADA
+.rounded-p{
+    background-color: red;
+    border-radius: 15px;
+    border: 4px solid black;
+    padding: 15px;
+}
+.rounded-p-2{
+    background-color: red;
+    border-radius: 25px;
+    padding: 15px;
+} */
+
+/* MARGIN
+.margin{
+    margin: 20px;
+    background-color: red;
+}
+.margin-top{
+    margin-top: 20px;
+    background-color: red;
+    padding: 10px;
+}
+.margin-shorthand{
+    margin: 5px 10px 15px 20px;
+    background-color: red;
+} */
+
+/* ELEMENTOS DO BOX MODEL JUNTOS
+.box-model{
+    margin: 20px;
+    padding: 10px 20px;
+    border: 5px dotted black;
+    border-radius: 25px;
+    width: 125px;
+    height: 100px;
+    background-color: red;
+} */
+
+/* DESAFIO 03
+#box-model-challenge{
+    margin: 20px;
+    padding: 10px;
+    border: 15px dotted blue;
+    border-radius: 20px;
+    outline: 15px dotted red;
+    background-color: greenyellow;
+    height: 100px;
+    width: 200px;
+}
+.box-model-challenge{
+    background-color: aqua;
+    color: orchid;
+    border: none;
+} */
+
+/* ALINHAMENTO DE TEXTO
+.text-aligment{
+    text-align: center;
+    width: 150px;
+    border: 3px solid red;
+} */
+
+/* TEXT DECORATION
+.none-underline{
+    text-decoration: none;
+}
+.underline{
+    text-decoration: underline;
+}
+.trought{
+    text-decoration: line-through;
+} */
+
+/* TEXT TRANSFORM
+.caixa-baixa{
+    text-transform: lowercase;
+}
+.caixa-alta{
+    text-transform: uppercase;
+} */
+
+/* ESPAÇAMENTO DE LETRAS
+.letter-spacing{
+    letter-spacing: 5px;
+} */
+
+/* FONTES
+.serif{
+    font-family: serif;
+}
+.sans-serif{
+    font-family: sans-serif;
+}
+.monospace{
+    font-family: monospace;
+}
+.cursive{
+    font-family: cursive;
+}
+.fantasy{
+    font-family: fantasy;
+}
+.arial{
+    font-family: Arial;
+} */
+
+/* FONT STYLE
+.italico{
+    font-style: italic;
+}
+.obliquo{
+    font-style: oblique;
+} */
+
+/* Font weight
+.weight-100{
+    font-weight: 100;
+}
+.weight-900{
+    font-weight: 900;
+} */
+
+/* FONT SIZE
+.small-font{
+    font-size: 10px;
+}
+.big-font{
+    font-size: 100px;
+} */
+
+/* DISPLAY
+.inline-box{
+    height: 50px;
+    width: 50px;
+    background-color: red;
+    margin: 10px;
+    display: inline-block;
+}
+.block{
+    height: 50px;
+    width: 50px;
+    background-color: red;
+    margin: 10px;
+    display: block;
+} */
+
+/* ESCONDEDO O ELEMENTO
+.invisible{
+    display: none;
+} */
+
+/* POSICION STATIC */
+.static{
+    background-color: red;
+    height: 100px;
+    width: 100px;
+    position: static;
+}
+
+/* POSICION RELATIVE */
+.relative{
+    background-color: red;
+    color: white;
+    height: 100px;
+    width: 100px;
+    position: relative;
+    top: 100px;
+    left: 35px;
+}
+
+/* POSICION ABSOLUTE */
+.absolute{
+    background-color: red;
+    color: goldenrod;
+    height: 100px;
+    width: 100px;
+    position: absolute;
+    top: 2px;
+    right: 2px;
+}
+
+/* RELATIVE COM ABSOLUTE */
+.relative-container{
+    width: 300px;
+    height: 300px;
+    border: 1px solid red;
+    margin-top: 120px;
+    position: relative;
+}
+.absolute-1, .absolute-2{
+    width: 50px;
+    height: 50px;
+    background-color: brown;
+    position: absolute;
+}
+.absolute-1{
+    top: 10px;
+    left: 10px;
+}
+.absolute-2{
+    bottom: 10px;
+    right: 10px;
+}
+
+/* POSICION FIXED */
+.fixed{
+    width: 100px;
+    height: 100px;
+    border: 3px solid blue;
+    background-image: url("../css/img/Imagem\ do\ WhatsApp\ de\ 2023-09-12\ à\(s\)\ 20.02.47.jpg");
+    background-position: center;
+    background-size: cover;
+    position: fixed;
+    top: 50px;
+    right: 50px;
+}
+
+/* POSICION STICKY */
+.sticky{
+    width: 100px;
+    height: 100px;
+    border: 3px solid blue;
+    background-image: url("../css/img/Imagem\ do\ WhatsApp\ de\ 2023-09-12\ à\(s\)\ 20.02.47.jpg");
+    background-position: center;
+    background-size: cover;
+    position: sticky;
+    top: 10px;
+}
+
+/* Z INDEX */
+.absolute-3, .absolute-4, .absolute-5{
+    width: 50px;
+    height: 50px;
+    position: absolute;
+}
+.absolute-3{
+    top: 0;
+    left: 0;
+    background-image: url(../css/img/alcantara-maranhao-dicas.jpg);
+    background-size: cover;
+    z-index: 3;
+}
+.absolute-4{
+    top: 10px;
+    left: 10px;
+    background-image: url(../css/img/Filhote-Cachorro-900x628.jpg);
+    background-size: cover;
+    z-index: 2;
+}
+.absolute-5{
+    top: 40px;
+    left: 40px;
+    background-image: url(../css/img/Imagem\ do\ WhatsApp\ de\ 2023-09-12\ à\(s\)\ 20.02.47.jpg);
+    background-size: cover;
+    z-index: 1;
+}
+
+/* .fixed{
+    width: 100px;
+    height: 100px;
+    border: 3px solid wheat);
+    border-radius: 15px;
+    background-image: url("../img/IMAGEM\ LATERAL\ DIREITA.jpg");
+    background-position: center;
+    background-size: cover;
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+} */

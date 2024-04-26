@@ -1,0 +1,12 @@
+body{
+    margin-bottom: 1000px;
+}
+
+#my-title{
+    cursor: pointer;
+}
+
+#btn-container{
+    padding: 30px;
+    background-color: green;
+}

@@ -1,0 +1,15 @@
+.quotes-container{
+    background-color: black;
+    opacity: 0.9;
+    padding: 30px;
+}
+.quotes-container blockquote{
+    font-weight: bold;
+    font-size: 30px;
+    color: white;
+}
+
+.quotes-container p{
+    font-style: italic;
+    color: white;
+}

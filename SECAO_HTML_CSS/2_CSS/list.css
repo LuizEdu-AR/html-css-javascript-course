@@ -1,0 +1,8 @@
+ul{
+    border: 2px solid blueviolet;
+    padding: 10px;
+}
+li{
+    color: blueviolet;
+    font-size: 20px;
+}

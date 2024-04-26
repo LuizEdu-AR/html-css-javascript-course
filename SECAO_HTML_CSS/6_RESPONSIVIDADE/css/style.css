@@ -1,0 +1,39 @@
+/* Media query */
+h1{
+    color: red;
+}
+@media screen and (max-width: 500px) {
+    h1{
+        color: blue;
+    }
+}
+
+/* Media query com min-width */
+p{
+    color: red;
+    background-color: black;
+}
+@media screen and (min-width:800px) {
+    p{
+        color: black;
+        background-color: red;
+    }
+}
+
+/* Padrão de breakpoints */
+/* 
+600px e abaixo: celular
+768px até 600px: tablets
+992px até 768px: mini laptops
+992px e acima: laptops e desktops */
+
+/* Landscape */
+h3{
+    display: none;
+}
+
+@media screen and (orientation: landscape) {
+    h3{
+        display: block;
+    }
+}
